@@ -12,7 +12,6 @@ void NaturalnumbersRevers(int value)
     
     Console.Write($"{value} ");
     NaturalnumbersRevers(value-1);
-    
 }
 Console.Write("Введите число");
 int number = Convert.ToInt32(Console.ReadLine());

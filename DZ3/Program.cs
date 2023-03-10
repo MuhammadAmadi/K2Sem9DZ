@@ -9,7 +9,7 @@ int MethodAccerman(int m,int n)
     else if(m>0&&n==0) return MethodAccerman(m-1,1);
     else return n+1; 
 }
-
+    
 Console.Write("Введите число M ");
 int numberM = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число N ");

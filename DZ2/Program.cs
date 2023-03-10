@@ -9,7 +9,7 @@ int NaturalNumbersSum(int m, int n)
     {
         return m;
     }
-    
+
     return n + NaturalNumbersSum(m,n-1);  
 }
 Console.Write("Введите минимальное число ");

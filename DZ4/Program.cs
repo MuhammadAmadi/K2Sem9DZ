@@ -36,6 +36,7 @@ void PrintMatrix(string[,] matrix)
         }
     }
 }
+
 Console.Write("Внимание если вводите число больше 20 уменьшите размер шрифта Терминала\n" +
     "Введите количество строк ");
 int numberN = Convert.ToInt32(Console.ReadLine());
